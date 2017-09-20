@@ -2,7 +2,7 @@
 
 This repository contains code for the paper  
 
-*[Gated Feedback Refinement Network for Dense Image Labeling](http://www.cs.umanitoba.ca/~ywang/papers/cvpr17.pdf)**,
+**[Gated Feedback Refinement Network for Dense Image Labeling](http://www.cs.umanitoba.ca/~ywang/papers/cvpr17.pdf)**,
 <br>
 Presented at [CVPR 2017](http://cvpr2017.thecvf.com/)
 
