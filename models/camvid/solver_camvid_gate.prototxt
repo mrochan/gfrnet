@@ -1,0 +1,15 @@
+net: "/mnt/vana/amirul/code_release/cvpr2017_seg/Models/CamVid/train_camvid_gate.prototxt" 
+test_initialization: false
+test_iter: 1
+test_interval: 10000000
+base_lr: 0.001       #initail lr is 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 50000
+display: 20
+momentum: 0.9
+max_iter: 150000
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "/mnt/vana/amirul/code_release/cvpr2017_seg/Models/CamVid/training_weights_camvid/gate_camvid_train" 
+solver_mode: GPU
