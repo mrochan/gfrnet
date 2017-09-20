@@ -7,7 +7,7 @@ When using this code, please cite our paper:
     @InProceedings{Islam_2017_CVPR,
 	author = {Amirul Islam, Md and Rochan, Mrigank and Bruce, Neil D. B. and Wang, Yang},
 	title = {Gated Feedback Refinement Network for Dense Image Labeling},
-	booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+	booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
 	month = {July},
 	year = {2017}
     }
