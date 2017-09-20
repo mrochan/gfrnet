@@ -1,8 +1,14 @@
 # G-FRNet: Gated Feedback Refinement Network for Dense Image Labeling
 
-This repository contains all the file for you to complete the 'Getting started with G-FRNet'. The network architecture is inspired from the SegNet model.
+This repository contains code for the paper  
 
-When using this code, please cite our paper:
+*[Gated Feedback Refinement Network for Dense Image Labeling](http://www.cs.umanitoba.ca/~ywang/papers/cvpr17.pdf)**,
+<br>
+Presented at [CVPR 2017](http://cvpr2017.thecvf.com/)
+
+The paper addresses the problem of **dense image labeling**, where the goal is to label each pixel in an image. The proposed model is an encoder-decoder-based deep convolutional neural network that is trained in an end-to-end fashion. The network architecture is inspired by the *[SegNet](https://github.com/alexgkendall/caffe-segnet)* architecture.
+
+If you find this code useful in your research, please cite:
 
     @InProceedings{Islam_2017_CVPR,
 	author = {Amirul Islam, Md and Rochan, Mrigank and Bruce, Neil D. B. and Wang, Yang},
