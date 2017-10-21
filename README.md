@@ -6,7 +6,7 @@ This repository contains code for the paper
 <br>
 Presented at [CVPR 2017](http://cvpr2017.thecvf.com/)
 
-The paper addresses the problem of **dense image labeling**, where the goal is to label each pixel in an image. The proposed model is an encoder-decoder-based deep convolutional neural network that is trained in an end-to-end fashion. The network architecture is inspired by the *[SegNet](https://github.com/alexgkendall/caffe-segnet)* architecture.
+The paper addresses the problem of **dense image labeling**, where the goal is to label each pixel in an image. The proposed model is an encoder-decoder-based deep convolutional neural network that is trained in an end-to-end fashion. <!-- The network architecture is inspired by the *[SegNet](https://github.com/alexgkendall/caffe-segnet)* architecture. -->
 
 If you find this code useful in your research, please cite:
 
