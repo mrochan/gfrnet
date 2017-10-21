@@ -41,7 +41,7 @@ Run the following command to train:
     
 ## Testing G-FRNet
 
-Update the paths in scripts/compute_bn_statistics_camvid.py and scripts/test_segmentation_camvid.py. 
+Run scripts/compute_bn_statistics_camvid.py and followed by scripts/test_segmentation_camvid.py. You would need to update the paths in these two files in order to successfully run them.
 
 Then, run the following command to test:
 
