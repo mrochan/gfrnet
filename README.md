@@ -19,9 +19,9 @@ If you find this code useful in your research, please cite:
     }
 
 ## Set up
-Please download and compile caffe-gfrnet which is a modified version of caffe that is required to run G-FRNet.
+Please download and compile caffe-gfrnet which is a modified version of [Caffe](https://github.com/BVLC/caffe).
 
-We used CamVid dataset (11 class version) which contains 367 training and 233 testing images of road scenes. Each image is of  size 360 by 480. Download the dataset from [this](https://github.com/alexgkendall/SegNet-Tutorial/tree/master/CamVid) GitHub repository.
+One of the datasets we experimented in our paper was CamVid dataset (11 class version), which contains 367 training and 233 testing images of road scenes. Each image is of  size 360 by 480. Download the dataset from [this](https://github.com/alexgkendall/SegNet-Tutorial/tree/master/CamVid) GitHub repository.
 
 Modify data/camvid/train.txt and data/camvid/test.txt so that G-FRNet can locate the data. The text files contains white-space separated paths to images (.jpg or .png) and their corresponding label images (.png), e.g., 
 
