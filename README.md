@@ -33,7 +33,7 @@ Update these two files with the paths where you stored the dataset.
 ## Training G-FRNet
 
 Modify the source under data layer of model file models/camvid/train_camvid_gate.prototxt and the inference model file models/camvid/test_camvid_gate.prototxt. Also, update the net and snapshot_prefix in the solver file 
-models/camvid/solver_camvid_gate.prototxt. Note that we initialize our model with pre-trained VGG-16 caffemodel which can be downloaded from [here](http://www.robots.ox.ac.uk/~vgg/research/very_deep/). 
+models/camvid/solver_camvid_gate.prototxt. Note that we initialize our model with pretrained VGG-16 caffemodel which can be downloaded from [here](http://www.robots.ox.ac.uk/~vgg/research/very_deep/). 
 
 Run the following command to train:
 
